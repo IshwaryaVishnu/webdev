@@ -6,18 +6,18 @@
        <script> 
          function dis(val) 
          { 
-             document.write("result").value+=val 
+             document.getElementById("result").value+=val 
          } 
          function solve() 
          { 
-             let x = document.write("result").value 
+             let x = document.getElementById("result").value 
              let y = eval(x) 
-             document.write("result").value = y 
+             document.getElementById("result").value = y 
          } 
             
          function clr() 
          { 
-             document.write("result").value = "" 
+             document.getElementById("result").value = "" 
          } 
       </script> 
       <style> 
