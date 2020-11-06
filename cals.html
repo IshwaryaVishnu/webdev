@@ -6,23 +6,24 @@
        <script> 
          function dis(val) 
          { 
-             document.getElementById("result").value+=val 
+             document.write("result").value+=val 
          } 
          function solve() 
          { 
-             let x = document.getElementById("result").value 
+             let x = document.write("result").value 
              let y = eval(x) 
-             document.getElementById("result").value = y 
+             document.write("result").value = y 
          } 
             
          function clr() 
          { 
-             document.getElementById("result").value = "" 
+             document.write("result").value = "" 
          } 
       </script> 
       <style> 
          .title{ 
-         margin-top:2px; 
+         margin-bottom: :2px;
+         shape-margin: 50px; 
          text-align:center; 
          width: 200px; 
          color:black; 
